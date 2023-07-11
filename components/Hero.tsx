@@ -1,4 +1,8 @@
+'use client';
+import CustomButton from './CustomButton';
+
 const Hero = () => {
+  const handleScroll = () => {};
   return (
     <div className='flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto'>
       <div className='flex-1 pt-36 sm:px-16 px-6'>
@@ -9,6 +13,11 @@ const Hero = () => {
           Streamline your car rental experience with our effortless booking
           process
         </p>
+        <CustomButton
+          title='Explore Cars'
+          containerStyles='bg-primary-blue text-white rounded-full mt-10'
+          handleClick={handleScroll}
+        />
       </div>
     </div>
   );
