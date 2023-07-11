@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         main: '#2B59FF',
       },
+      backgroundImage: {
+        pattern: "url('/pattern.png')",
+        'hero-bg': "url('/hero-bg.png')",
+      },
     },
   },
   plugins: [],
