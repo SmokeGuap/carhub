@@ -12,7 +12,10 @@ const SearchBar = () => {
       onSubmit={handleSearch}
     >
       <div className='flex-1 max-sm:w-full flex justify-start items-center relative'>
-        <SearchManufacturer manufacturer={manufacturer} />
+        <SearchManufacturer
+          manufacturer={manufacturer}
+          setManufacturer={setManufacturer}
+        />
       </div>
     </form>
   );

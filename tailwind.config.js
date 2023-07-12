@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors: {
         main: '#2B59FF',
+        'light-white': '#E1E1E3',
       },
       backgroundImage: {
         pattern: "url('/pattern.png')",
