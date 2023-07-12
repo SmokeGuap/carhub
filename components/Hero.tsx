@@ -1,11 +1,11 @@
 'use client';
-import CustomButton from './CustomButton';
+import { CustomButton } from './';
 import Image from 'next/image';
 
 const Hero = () => {
   const handleScroll = () => {};
   return (
-    <div className='flex xl:flex-row flex-col gap-5 relative z-0 mx-auto overflow-hidden'>
+    <div className='flex xl:flex-row flex-col gap-5 relative z-0 mx-auto'>
       <div className='flex-1 pt-36 sm:px-16 px-6'>
         <h1 className='2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold'>
           Find or rent a car - quickly and easily!
