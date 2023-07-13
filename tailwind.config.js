@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         main: '#2B59FF',
         'light-white': '#E1E1E3',
+        grey: '#747A88',
       },
       backgroundImage: {
         pattern: "url('/pattern.png')",
