@@ -1,7 +1,8 @@
 import { CarCard, CustomFilter, Hero, SearchBar } from '@/components';
+import { HomeProps } from '@/types';
 import { fetchCars } from '@/utils';
 
-export default async function Home({ searchParams }) {
+export default async function Home({ searchParams }: HomeProps) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || '',
     year: searchParams.year || 2023,
@@ -23,8 +24,8 @@ export default async function Home({ searchParams }) {
         <div className='mt-12 w-full flex-between items-center flex-wrap gap-5'>
           <SearchBar />
           <div className='flex justify-start flex-wrap items-center gap-2'>
-            <CustomFilter title='fuel' />
-            <CustomFilter title='year' />
+            <CustomFilter title='fuel' options={fuels} />
+            <CustomFilter title='year' options={yearsOfProduction} />
           </div>
         </div>
         {!isDataEmpty ? (
@@ -34,6 +35,10 @@ export default async function Home({ searchParams }) {
                 <CarCard car={car} />
               ))}
             </div>
+            <ShowMore
+              pageNumber={(searchParams.limit || 10) / 10}
+              isNext={(searchParams.limit || 10) > allCars.length}
+            />
           </section>
         ) : (
           <div className='mt-16 flex justify-center items-center flex-col gap-2'>
