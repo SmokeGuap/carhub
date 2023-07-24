@@ -3,7 +3,7 @@
 It is a prompting tool
 
 ## Screenshots
-<img src="https://github.com/SmokeGuap/promptopia/assets/87711568/340c14c5-5f24-4bc9-a786-14f0baa47070" width="500">
+<img src="https://github.com/SmokeGuap/carhub/assets/87711568/7363418e-9ead-4a69-b0ed-0e2d8a32caa7" width="500">
 <img src="https://github.com/SmokeGuap/carhub/assets/87711568/16e22871-20c2-4efd-9953-77d2612bdff1" width="500">
 <img src="https://github.com/SmokeGuap/carhub/assets/87711568/844cc3df-dec7-4b61-b9c4-f310967c5a17" width="500">
 
