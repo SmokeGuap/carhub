@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Promptopia
 
-## Getting Started
+It is a prompting tool
 
-First, run the development server:
+## Screenshots
+<img src="https://github.com/SmokeGuap/promptopia/assets/87711568/340c14c5-5f24-4bc9-a786-14f0baa47070" width="500">
+<img src="https://github.com/SmokeGuap/carhub/assets/87711568/16e22871-20c2-4efd-9953-77d2612bdff1" width="500">
+<img src="https://github.com/SmokeGuap/carhub/assets/87711568/844cc3df-dec7-4b61-b9c4-f310967c5a17" width="500">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+P.S. At the moment API from `cdn.imagin.studio` doesn't work for mu country, and there are no car pictures in the screenshots.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Used technologies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next
+- Typescript
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How to run
 
-## Learn More
+You have to  write X-RapidAPI-Key, X-RapidAPI-Host to `utils/index.ts` file, like:
+`  const headers = {
+    'X-RapidAPI-Key': '5708121a2amshfe2a866c100a4efp1cf749jsnde76b00f2dab',
+    'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com',
+  };
+  `
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In the project directory, you can run: `npm run dev`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
