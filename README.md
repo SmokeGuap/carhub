@@ -1,6 +1,6 @@
-# Promptopia
+# CarHub
 
-It is a prompting tool
+Website to search a car
 
 ## Screenshots
 <img src="https://github.com/SmokeGuap/carhub/assets/87711568/7363418e-9ead-4a69-b0ed-0e2d8a32caa7" width="500">
