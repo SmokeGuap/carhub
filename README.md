@@ -7,7 +7,7 @@ It is a prompting tool
 <img src="https://github.com/SmokeGuap/carhub/assets/87711568/16e22871-20c2-4efd-9953-77d2612bdff1" width="500">
 <img src="https://github.com/SmokeGuap/carhub/assets/87711568/844cc3df-dec7-4b61-b9c4-f310967c5a17" width="500">
 
-P.S. At the moment API from `cdn.imagin.studio` doesn't work for mu country, and there are no car pictures in the screenshots.
+P.S. At the moment API from `cdn.imagin.studio` doesn't work for my country, and there are no car pictures in the screenshots.
 
 ## Used technologies
 
